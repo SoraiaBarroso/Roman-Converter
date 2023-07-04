@@ -17,20 +17,29 @@ The Roman Number Converter is a simple command-line program written in Ruby that
    git clone https://github.com/your-username/Roman_Converter.git
 
 2. Change to the project directory:
-   
-  ```shell
+      
+   ```shell
    cd Roman_Converter
-  ```
+   ```
 
 3. Run the program:
-   ```shell
-     ruby my_roman_numerals_converter.rb
-    ```
    
-Usage
+   ```shell
+   ruby my_roman_numerals_converter.rb
+   ```
+   
+## Usage
 
-    Launch the program by running the my_roman_numerals_converter.rb file.
-    Enter a decimal number to convert to Roman numerals.
-    The program will display the corresponding Roman numeral representation.
-    You can convert additional numbers by entering 'y' when prompted.
-    To exit the program, enter 'n' when prompted or type 'exit' at any time.
+1. Launch the program by running the my_roman_numerals_converter.rb file.
+2. Enter a decimal number to convert to Roman numerals.
+3. The program will display the corresponding Roman numeral representation.
+4. You can convert additional numbers by entering 'y' when prompted.
+5. To exit the program, enter 'n' when prompted or type 'exit' at any time.
+
+## Limitations 
+
+· The Roman Number Converter supports decimal numbers up to 3000.
+· Input values must be valid decimal numbers; otherwise, an error message will be displayed.
+
+
+Make sure to replace "your-username" in the repository URL with your actual GitHub username.
